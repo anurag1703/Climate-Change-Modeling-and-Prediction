@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+seaborn
+matplotlib
+plotly
+tensorflow
+nltk
+spacy
+wordcloud
+datetime
+streamlit
+dvc
+dvc-s3
+mlflow
