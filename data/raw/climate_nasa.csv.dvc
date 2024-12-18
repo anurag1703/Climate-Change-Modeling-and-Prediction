@@ -1,0 +1,5 @@
+outs:
+- md5: 0da2eecd5928d888532d25ca6524b278
+  size: 145172
+  hash: md5
+  path: climate_nasa.csv
