@@ -1,0 +1,6 @@
+outs:
+- md5: 029c4376f644de3e0d29ca456649fc26.dir
+  size: 7900
+  nfiles: 4
+  hash: md5
+  path: regression data
