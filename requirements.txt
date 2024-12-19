@@ -13,3 +13,8 @@ streamlit
 dvc
 dvc-s3
 mlflow
+torch
+transformers
+ollama 
+langchain
+boto3
