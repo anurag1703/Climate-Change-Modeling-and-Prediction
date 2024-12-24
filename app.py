@@ -3,16 +3,19 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
 
-# Load pre-trained models
+
+# Load trained models
 @st.cache_resource
 def load_model(file_path):
     return joblib.load(file_path)
+
 
 # Home Page with Image
 def home_page():
     st.title("Welcome to Climate Change Analysis")
     st.image("imgg.jpg", caption="Climate Change Analysis Project", use_container_width=True)
     st.write("Navigate using the sidebar to explore different features of the application.")
+
 
 # Navigation menu
 def navigation():
