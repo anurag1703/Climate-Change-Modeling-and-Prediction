@@ -92,7 +92,7 @@ def data_visualizations():
 
     # Showcase saved visualizations
     for i in range(1, 3):  # Assuming 3 visualization images saved as viz1.png, viz2.png, viz3.png
-        st.image(f"viz{i}.png", caption=f"Visualization {i}", use_column_width=True)
+        st.image(f"viz{i}.png", caption=f"Visualization {i}", use_container_width=True)
 
 # Main Streamlit Application
 def main():
