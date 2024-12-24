@@ -11,7 +11,7 @@ def load_model(file_path):
 # Home Page with Image
 def home_page():
     st.title("Welcome to Climate Change Analysis")
-    st.image("imgg.jpg", caption="Climate Change Analysis Project", use_column_width=True)
+    st.image("imgg.jpg", caption="Climate Change Analysis Project", use_container_width=True)
     st.write("Navigate using the sidebar to explore different features of the application.")
 
 # Navigation menu
