@@ -19,6 +19,7 @@ def navigation():
     st.sidebar.title("Navigation")
     return st.sidebar.radio("Go to", ["Home", "Trend Analysis", "Climate Impact Regression", "Sentiment Analysis", "Data Visualizations"])
 
+
 # Sentiment Analysis Section
 def sentiment_analysis():
     st.title("Sentiment Analysis")
@@ -35,6 +36,7 @@ def sentiment_analysis():
             sentiment_result = "Neutral"
         st.success(f"Predicted Sentiment: {sentiment_result}")
 
+
 # Trend Analysis Section
 def trend_analysis():
     st.title("Trend Analysis")
@@ -46,7 +48,7 @@ def trend_analysis():
         try:
             # Placeholder trend prediction logic
             input_data = [float(x) for x in user_input.split(",")]
-            # Replace this with actual trend prediction logic
+            
             predicted_trends = [x * 1.05 for x in input_data]
             st.success(f"Predicted Trends: {predicted_trends}")
 
@@ -62,6 +64,7 @@ def trend_analysis():
         except Exception as e:
             st.error(f"Error: {e}")
 
+
 # Climate Impact Regression Section
 def climate_impact_regression():
     st.title("Climate Impact Regression")
@@ -73,7 +76,7 @@ def climate_impact_regression():
     if st.button("Predict Impact"):
         try:
             # Placeholder regression logic
-            impact_score = likes * 0.7 + comments * 0.3  # Replace with actual regression logic
+            impact_score = likes * 0.7 + comments * 0.3
             st.success(f"Predicted Climate Impact Score: {impact_score}")
 
             # Generate a bar chart
@@ -91,7 +94,7 @@ def data_visualizations():
     st.write("Explore various visualizations of climate data.")
 
     # Showcase saved visualizations
-    for i in range(1, 3):  # Assuming 3 visualization images saved as viz1.png, viz2.png, viz3.png
+    for i in range(1, 9):  
         st.image(f"viz{i}.png", caption=f"Visualization {i}", use_container_width=True)
 
 # Main Streamlit Application
